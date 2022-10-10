@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n+2|cute -f1|sort|uniq -c|sort rn|head -11|rev|cute -f 1 -d ' '|rev
